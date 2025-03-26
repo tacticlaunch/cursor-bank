@@ -228,6 +228,69 @@ Memory Bank updates occur when:
 3. When user requests with **update memory bank**
 4. When context needs clarification
 
+## Detailed Workflow Guide
+
+### Command Reference
+- `PLAN` - Enter or return to plan mode
+- `ACT` - Approve plan and switch to implementation mode
+- `update memory bank` - Trigger documentation update
+
+### Typical Workflow Example
+
+1. Start Task:
+   ```
+   User: "Plan mode: I need to add a new API endpoint"
+   AI: "# Mode: PLAN
+       [Reviews memory bank and presents plan]"
+   ```
+
+2. Review & Approve:
+   ```
+   User: "ACT"
+   AI: "# Mode: ACT
+       [Implements changes]"
+   ```
+
+3. Update Documentation:
+   ```
+   User: "update memory bank"
+   AI: [Reviews and updates all memory bank files]
+   ```
+
+### When to Update Memory Bank
+
+1. After Implementation:
+   - Completing feature development
+   - Making architectural changes
+   - Adding new dependencies
+
+2. During Project Evolution:
+   - Milestone completion
+   - Sprint transitions
+   - Major refactoring
+
+3. Documentation Maintenance:
+   - New patterns discovered
+   - Project context changes
+   - Technical debt documentation
+
+### Best Practices
+
+1. Always start with Plan mode for:
+   - New features
+   - Architectural changes
+   - Complex refactoring
+
+2. Use Act mode after:
+   - Plan approval
+   - Understanding implementation details
+   - Confirming approach
+
+3. Update memory bank when:
+   - Completing significant changes
+   - Adding new patterns
+   - Changing project direction
+
 ## Known Issues & Tips
 
 ### Common Issues
