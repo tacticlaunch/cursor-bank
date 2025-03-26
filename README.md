@@ -307,3 +307,7 @@ Memory Bank updates occur when:
 - Use `alwaysApply: true` for rules that should apply to every prompt
 - Write detailed descriptions in the rule file for specific use cases
 - Use glob patterns to apply rules to specific file types
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
