@@ -10,7 +10,7 @@ To install the Cursor Memory Bank, you can use the following command to clone th
 
 1. Call command in your project to download the `.cursor` folder
 ```bash
-npx degit tacticlaunch/cursor-memory-bank/.cursor
+npx gitpick tacticlaunch/cursor-memory-bank/tree/main/.cursor/rules/ .cursor/rules
 ```
 2. Create a memory-bank/ folder in your project root
 3. Write to Cursor agent - **initialize memory bank**
