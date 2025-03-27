@@ -12,8 +12,17 @@ To install the Cursor Memory Bank, you can use the following command to clone th
 ```bash
 npx gitpick tacticlaunch/cursor-memory-bank/tree/main/.cursor/rules/ .cursor/rules
 ```
-2. Create a memory-bank/ folder in your project root
-3. Write to Cursor agent - **initialize memory bank**
+2. Create a `memory-bank` folder in your project root
+3. Initialize memory bank
+   - For exists project write to Cursor agent - **initialize memory bank**
+   - For new project I would recommend this flow:
+     - Write to Cursor agent
+         ```
+         PLAN
+
+         <Describe your details of the project that you want to build>
+         ```
+      - After Cursor agent end its speach write to it - **initialize memory bank**
 
 ### Manual
 Install manually by following the steps below:
