@@ -1,9 +1,5 @@
 # Cursor Memory Bank
 
-A simple utility to install Cursor Memory Bank features in your project.
-
-## What is Cursor Memory Bank?
-
 Cursor Memory Bank is a powerful feature that enhances AI assistance by maintaining perfect documentation between sessions. It addresses AI's session memory limitations by creating a structured documentation system that serves as the AI's persistent memory.
 
 ## Installation
@@ -17,10 +13,8 @@ npx cursor-bank init
 ```
 
 This will automatically:
-1. Clone the required files from the repository
-2. Copy the `.cursor/rules` directory to your project
-3. Create a `memory-bank` directory in your project root
-
+1. Copy the `.cursor/rules` directory to your project
+2. Create a `memory-bank` directory in your project root
 
 <details>
 <summary>Other options</summary>
@@ -45,10 +39,15 @@ https://github.com/tacticlaunch/cursor-memory-bank/tree/main/.cursor/rules
 
 ## After Installation
 
-After the installation is complete, you need to initialize the memory bank by typing to Cursor agent:
-```
-initialize memory bank
-```
+- For exists project write to Cursor agent - **initialize memory bank**
+- For new project I would recommend this flow:
+  - Write to Cursor agent
+      ```
+      PLAN
+
+      <Describe your details of the project that you want to build>
+      ```
+   - After Cursor agent end its speach write to it - **initialize memory bank**
 
 ## Usage
 
