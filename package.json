@@ -1,0 +1,39 @@
+{
+  "name": "cursor-bank",
+  "public": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Cursor Memory Bank is a powerful feature that enhances AI assistance by maintaining perfect documentation between sessions. It addresses the AI's session memory limitations by creating a structured documentation system that serves as the AI's persistent memory.",
+  "keywords": [
+    "memory-bank",
+    "cursor",
+    "ai",
+    "documentation",
+    "claude"
+  ],
+  "main": "index.js",
+  "bin": {
+    "cursor-bank": "./index.js"
+  },
+  "author": "Alexey Elizarov <alex.elizarov1@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacticlaunch/cursor-memory-bank.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/tacticlaunch/cursor-memory-bank/issues"
+  },
+  "homepage": "https://github.com/tacticlaunch/cursor-memory-bank#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "debug": "^4.4.0",
+    "fs-extra": "^11.1.1",
+    "simple-git": "^3.21.0"
+  }
+}
