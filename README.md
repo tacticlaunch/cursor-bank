@@ -20,11 +20,12 @@ This will automatically:
 1. Clone the required files from the repository
 2. Copy the `.cursor/rules` directory to your project
 3. Create a `memory-bank` directory in your project root
-4. Set up the memory bank structure
+
+
+<details>
+<summary>Other options</summary>
 
 ### Option 2: Global Installation
-
-1. Install the package globally:
 
 ```bash
 npm install -g cursor-bank
@@ -36,45 +37,11 @@ npm install -g cursor-bank
 cursor-bank init
 ```
 
-### Option 3: Manual Installation
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/tacticlaunch/cursor-memory-bank.git
-```
-
-2. Install dependencies and run the script:
-
-```bash
-cd cursor-memory-bank
-npm install
-npm start
-```
-
-## Command Options
-
-The `init` command supports the following options:
-
-```bash
-cursor-bank init [options]
-```
-
-| Option | Description |
-|--------|-------------|
-| `-d, --debug` | Show detailed debug information during installation |
-| `-h, --help` | Display help for command |
-| `-V, --version` | Output the version number |
-
-Example with debug output:
-```bash
-cursor-bank init --debug
-```
-
 ### Option 3: Download Files Directly
 
 You can also download the `.cursor/rules` directory manually from:
 https://github.com/tacticlaunch/cursor-memory-bank/tree/main/.cursor/rules
+</details>
 
 ## After Installation
 
@@ -91,8 +58,10 @@ initialize memory bank
 - `ACT` - Approve plan and switch to implementation mode
 - `update memory bank` - Trigger documentation update
 
-For detailed usage instructions, see the [full documentation](https://github.com/tacticlaunch/cursor-memory-bank).
+## Links
+
+[tacticlaunch/mcp-linear](https://github.com/tacticlaunch/mcp-linear) - If you are a developer seeking to enhance your workflow with Linear, consider giving it a try.
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the LICENSE file for details.
