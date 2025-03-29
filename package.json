@@ -21,8 +21,7 @@
     "url": "git+https://github.com/tacticlaunch/cursor-memory-bank.git"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"No test specified\" && exit 0"
+    "start": "node index.js"
   },
   "publishConfig": {
     "access": "public"
