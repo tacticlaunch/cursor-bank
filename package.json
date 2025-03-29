@@ -1,7 +1,7 @@
 {
   "name": "cursor-bank",
   "public": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Cursor Memory Bank is a powerful feature that enhances AI assistance by maintaining perfect documentation between sessions. It addresses the AI's session memory limitations by creating a structured documentation system that serves as the AI's persistent memory.",
   "keywords": [
