@@ -34,7 +34,7 @@ cursor-bank init
 ### Option 3: Download Files Directly
 
 You can also download the `.cursor/rules` directory manually from:
-https://github.com/tacticlaunch/cursor-memory-bank/tree/main/.cursor/rules
+https://github.com/tacticlaunch/cursor-bank/tree/main/.cursor/rules
 </details>
 
 ## After Installation

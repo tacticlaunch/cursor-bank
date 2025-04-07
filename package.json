@@ -18,7 +18,7 @@
   "author": "Alexey Elizarov <alex.elizarov1@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tacticlaunch/cursor-memory-bank.git"
+    "url": "git+https://github.com/tacticlaunch/cursor-bank.git"
   },
   "scripts": {
     "start": "node index.js"
@@ -27,9 +27,9 @@
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/tacticlaunch/cursor-memory-bank/issues"
+    "url": "https://github.com/tacticlaunch/cursor-bank/issues"
   },
-  "homepage": "https://github.com/tacticlaunch/cursor-memory-bank#readme",
+  "homepage": "https://github.com/tacticlaunch/cursor-bank#readme",
   "dependencies": {
     "commander": "^12.1.0",
     "debug": "^4.4.0",

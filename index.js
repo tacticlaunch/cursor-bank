@@ -13,7 +13,7 @@ const git = simpleGit();
 
 // Configuration
 const config = {
-  repoUrl: 'https://github.com/tacticlaunch/cursor-memory-bank',
+  repoUrl: 'https://github.com/tacticlaunch/cursor-bank',
   sourcePath: '.cursor/rules',
   targetPath: '.cursor/rules',
   branch: 'main'
@@ -34,7 +34,7 @@ async function cloneAndCopy(options) {
   }
   
   // Create a temporary directory
-  const tempDir = path.join(os.tmpdir(), `cursor-memory-bank-${Date.now()}`);
+  const tempDir = path.join(os.tmpdir(), `cursor-bank-${Date.now()}`);
   
   log.debug(`Creating temporary directory: ${tempDir}`);
   
@@ -83,8 +83,8 @@ async function cloneAndCopy(options) {
     }
 
     log.info('\n✅ Setup complete! You can now use the Cursor Memory Bank.');
+    log.info('For new projects, I recommend starting with a PLAN command before initializing the memory bank. For more details, visit https://github.com/tacticlaunch/cursor-bank');
     log.info('For existing projects, write to your Cursor assistant: "initialize memory bank".');
-    log.info('For new projects, I recommend starting with a PLAN command before initializing the memory bank. For more details, visit https://github.com/tacticlaunch/cursor-memory-bank');
   } catch (error) {
     log.error('An error occurred:');
     log.error(error.message);
